@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archenemy Finder</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="index.js"></script>
+</head>
+<body>
+    <h1>Project Nemesis</h1>
+    <button class="generator">Generate Nemesis</button>
+    <div class="enemyCard">
+        <h3 class="name">No Nemesis</h3>
+        <img class="image" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAPEBAPDxAQDw8PEA8PDw8PDw8PDw8PFREWFhURFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0NDw0PDysZFRkrKzcrLSsrKy03LSsrLTcrLTcrLSsuNy03KysrKysrKysrLSsrKystKysrKysrKysrK//AABEIAOEA4QMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAAAQIH/8QAIRABAQEAAQQBBQAAAAAAAAAAAAERAiExQWFxElGhsfD/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDilClGFSEBVQpBDAKCYCCqv1MrACJYoKJaApiUAClAsEXQCqUEBeUgIqQEMFQVqpSlECIsFORF1BAAGVkRqcs330FS/gguAlgUBaXsVNBcEICpQAiKWAUxUAoAAmrAMAEUpqaKYsiNQRlYUFRcNARFAAAWJigJRamALnlDQKqABhoC1FtSgAAYKAyoAtRQEilSAomrAWJQETQBQgAuiFBdSgAYKCKi0ESLAF1IqAVFqAsEa4+f7aCACFF3x47oKLGWpBEaggGBoCUwNFMMKgNQQoNISoAsqEBai2AIGgGGgBEFAAAwXfX7QC0AEa0NAABKqKCGhQE0ACi4BDFhoIQWAaVMMEE1cTBVDACoqAsAgAABQABAaiACxNWoAkUAEAa4wtZUAFl+PIIsZXQWoVKCwIACUgAAKBxmgYGAFNACIqAsAgLRABFgAigIoQAVAFTFkAShQTBYAiigyLUAVFBMUwAAARdQGuPHvZ4zfWoQBUtKgGhQBUAUDQXjfW9M+PaQ0AAA0CwEVKAq6gCC1AVFICYKACoAAABoKlpqAAAAAKAARKCkAFMARBNUVCKlBUMUAADBUARrEBUWRKAlasSgQIoMigJRQDjSJFAwNNAwAClMUGRUBbDC9QARQCEAABAVBV1FTQMVAGpUtEAn3EXQEWoBGtZUAntAF0QgLoAALKCUoUBKqAsUQDAAVFpgIKgAKAgaCKgCgABDQAACFW8bPHcEFQAEBSlQFQICwAFxAEWwEFBUtBdQABAAoAqKgAAKYQoCoAqABUW1AFCgakVKCosARTAFpEBBFBUWACAAKAERQEUAL3SgCgAIoCLQAhQBAAI1xQBsAH//2Q=="/>
+        <p class="age">Age:</p>
+        <p class="address">Location:</p>
+        <p class="email">Email:</p>
+        <p class="phone">Phone:</p>
+        <button class="accept" type="button">Accept Nemesis</button>
+        <input type="button" class="decline" value="Decline Nemesis" onClick="window.location.reload(true)">
+    </div>
+    <form class="message">
+        <h2>Send a message to your new nemesis!</h2>
+        <label for="from" class="from">From:</label><br>
+        <input type="text" class="from" name="from"><br>
+        <label for="message" class="from">Message:</label><br>
+        <textarea rows="2" cols="25" class="from"></textarea>
+        <input type="submit" value="Submit" class="from" id="submit">
+      </form>
+
+</body>
+</html>
